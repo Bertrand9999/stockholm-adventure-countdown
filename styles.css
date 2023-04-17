@@ -47,3 +47,8 @@ body {
     max-width: 90%;
     white-space: nowrap; /* Évite les retours à la ligne */
 }
+
+.countdown-number {
+    font-weight: bold;
+}
+
