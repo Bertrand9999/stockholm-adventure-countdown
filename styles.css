@@ -31,13 +31,13 @@ body {
 
 .stockholm-image {
     max-width: 100%;
-    height: auto;
-    margin-bottom: 20px;
+    max-height: 30vh; /* Limite la hauteur de l'image à 30% de la hauteur de la fenêtre d'affichage */
+    border-radius: 10px;
 }
 
 .poetic-text {
-    font-size: 1.2em;
-    font-style: italic;
-    line-height: 1.4;
-    margin: 0;
+    text-align: center;
+    font-size: 1.2rem; /* Ajuste la taille de la police */
+    line-height: 1.6;
+    max-width: 90%;
 }
