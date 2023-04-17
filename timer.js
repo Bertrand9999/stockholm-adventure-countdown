@@ -11,4 +11,21 @@ function updateTimer() {
 
     if (tempsRestant >= 0) {
         const jours = Math.floor(tempsRestant / (1000 * 60 * 60 * 24));
-        const heures = Math.floor
+        const heures = Math.floor((tempsRestant % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const minutes = Math.floor((tempsRestant % (1000 * 60 * 60)) / (1000 * 60));
+        const secondes = Math.floor((tempsRestant % (1000 * 60)) / 1000);
+
+        joursElement.innerText = jours + ' Jours';
+        heuresElement.innerText = heures + ' Heures';
+        minutesElement.innerText = minutes + ' Minutes';
+        secondesElement.innerText = secondes + ' Secondes';
+    } else {
+        joursElement.innerText = '0 Jours';
+        heuresElement.innerText = '0 Heures';
+        minutesElement.innerText = '0 Minutes';
+        secondesElement.innerText = '0 Secondes';
+    }
+}
+
+updateTimer();
+setInterval(updateTimer, 1000);
