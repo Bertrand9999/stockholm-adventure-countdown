@@ -36,8 +36,8 @@ body {
 }
 
 .stockholm-image {
-    max-width: 50%;
-    max-height: 30vh; /* Limite la hauteur de l'image à 30% de la hauteur de la fenêtre d'affichage */
+    max-width: 80%; /* Augmentation de la valeur max-width */
+    max-height: 30vh;
     border-radius: 10px;
 }
 
