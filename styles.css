@@ -31,6 +31,7 @@ body {
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
+    white-space: nowrap; /* Évite les retours à la ligne */
 }
 
 .stockholm-image {
@@ -44,4 +45,5 @@ body {
     font-size: 1.2rem; /* Ajuste la taille de la police */
     line-height: 1.6;
     max-width: 90%;
+    white-space: nowrap; /* Évite les retours à la ligne */
 }
