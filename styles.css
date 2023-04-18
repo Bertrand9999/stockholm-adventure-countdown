@@ -42,11 +42,15 @@ body {
 }
 
 .poetic-text {
+    display: flex; /* Ajout de la propriété display */
+    align-items: center; /* Ajout de la propriété align-items */
+    justify-content: center;
     text-align: center;
     font-size: 1.2rem;
     line-height: 1.6;
     max-width: 90%;
-    white-space: nowrap; /* Ajout de la propriété white-space */
+    white-space: nowrap;
 }
+
 
 
